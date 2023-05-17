@@ -1,0 +1,412 @@
+.header {
+  min-height: 10vh;
+  width: 100%;
+  background-color: #00000000;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  text-decoration: none;
+  color: #ffffff00;
+  z-index: 100;
+  transition: 0.4s;
+  border-radius: 0px 9px 0px 9px;
+
+
+}
+
+nav {
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -2%;
+
+}
+
+nav img {
+  width: 150px;
+
+}
+
+.nav-links {
+  margin-left: 10%;
+  flex: 10;
+  text-align: right;
+
+}
+
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+  color: #fff;
+}
+
+.nav-links ul li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 13px;
+  border-radius: 0px 9px 0px 9px;
+}
+
+.section6 {
+  background-color: orange;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  margin-top: -1%;
+  margin-left: -2%;
+  margin-right: -1%;
+}
+
+.section {
+  display: flex;
+  width: 110%;
+  height: 120vh;
+  position: relative;
+  margin-top: -15%;
+  margin-left: -2%;
+  overflow: hidden;
+  margin-right: 30%;
+
+}
+
+.section1 {
+
+  background-color: antiquewhite;
+  width: 100%;
+  height: 120vh;
+  display: flex;
+  position: relative;
+}
+
+.section2 {
+  background-color: #242945;
+  width: 100%;
+  height: 120vh;
+  display: flex;
+  position: relative;
+}
+
+.section3 {
+  position: absolute;
+  overflow: hidden;
+  height: 600px;
+  top: 20%;
+  left: 40%;
+  width: 600px;
+}
+
+.box1 {
+
+  margin-top: 20%;
+  margin-left: 70px;
+  left: 10px;
+  border-radius: 20px;
+  height: 200px;
+  width: 200px;
+  ;
+  position: absolute;
+  background-color: #1d223e;
+  box-shadow: #000000 1px 3px 6px;
+}
+
+
+.box1podcaste {
+  align-items: center;
+  display: flex;
+  height: 20%;
+  width: 20%;
+}
+
+.box1 .fa-sharp {
+  color: rgb(245, 159, 0);
+  margin-top: 10%;
+  margin-left: 10%;
+  width: 30vh;
+  height: 30vh;
+  right: 20%;
+  font-size: 3vh;
+}
+
+
+.box3 {
+  margin-top: 37%;
+  margin-left: 180px;
+  left: 160px;
+  border-radius: 20px;
+  height: 200px;
+  width: 200px;
+  ;
+  position: absolute;
+  background-color: #c8c3b7;
+  background-image: linear-gradient(#ebe7df, rgba(115, 109, 109, 0.512));
+  box-shadow: #000000ab 1px 3px 3px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  flex-basis: 31%;
+
+}
+
+.box3-col:hover {
+  shape-margin: 10px;
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.box2 {
+  margin-top: 30%;
+  margin-left: 200px;
+  border-radius: 20px;
+  height: 300px;
+  width: 200px;
+  ;
+  position: absolute;
+  overflow: hidden;
+  background: rgb(249, 205, 73);
+  box-shadow: #000000ab 1px 6px 6px;
+  /* object-fit: cover; */
+  /* background-image: url('img/img.png'); */
+}
+
+.box2 img {
+  object-fit: contain;
+  height: auto;
+  width: 100%;
+}
+
+.box5 {
+  margin-top: 70%;
+  margin-left: 50px;
+  border-radius: 20px;
+  height: 150px;
+  width: 300px;
+  ;
+  position: absolute;
+  background-image: linear-gradient(to right, rgb(196, 188, 188), rgb(210, 186, 135), rgba(0, 0, 0, 0.512));
+  box-shadow: #000000 1px 3px 3px;
+}
+
+.section4 {
+  position: absolute;
+  height: 500px;
+  top: 30%;
+  left: 2%;
+  bottom: 10%;
+  width: 550px;
+
+}
+
+.section4 h1 {
+  left: 70px;
+  padding-left: 10%;
+  text-align: left;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 66px;
+}
+
+.icon i {
+  position: absolute;
+  top: 20%;
+  left: 3%;
+}
+
+.icon i {
+  rotate: 30deg;
+  font-size: 50px;
+  color: rgb(0, 0, 0);
+  top: 30%;
+}
+
+.icon1 i {
+  position: absolute;
+  top: 54%;
+  left: 27%;
+  font-size: 50px;
+  color: rgb(0, 0, 0);
+}
+
+.icon1 i {
+  rotate: 10deg;
+  font-size: 50px;
+  color: rgb(0, 0, 0);
+}
+
+.section1 p {
+  position: absolute;
+  left: 11%;
+  top: 63%;
+  font-size: 25px;
+}
+
+.box7 {
+  background-color: orange;
+  height: 10%;
+  width: 40%;
+  top: 70%;
+  left: 10%;
+  border-radius: 100px;
+  position: absolute;
+}
+
+.box8 {
+  color: white;
+  background-color: rgb(0, 0, 0);
+  height: 10%;
+  width: 40%;
+  top: 90%;
+  left: 58%;
+  border-radius: 100px;
+  position: absolute;
+}
+
+
+.box1 fa-solid fa-brightness {
+  position: absolute;
+  height: 50%;
+  width: 50%;
+}
+
+.box2 p {
+  text-align: center;
+  font-size: 25px;
+  margin: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.box1 img {
+  height: 100%;
+  width: 100%;
+
+}
+
+.section3 .box1 img {
+  height: 100%;
+  width: 100%;
+}
+
+nav .fa {
+
+  display: NONE;
+  color: rgb(255, 255, 255);
+
+  cursor: pointer;
+}
+
+.EX {
+  color: #000000;
+}
+
+@media screen and (max-width: 600px) {
+
+  .section {
+    position: absolute;
+    overflow: scroll;
+    overflow-x: hidden;
+    margin: 0%;
+    display: block;
+    height: 100vh;
+    width: 100%;
+
+
+  }
+
+  .icon {
+    display: none;
+  }
+
+  .icon1 {
+    display: none;
+  }
+
+  .box-col:hover {
+    box-shadow: 0 0 20px 0px rgba(0 0 0 0.2)
+  }
+
+  .section1 {
+
+    height: 50vh;
+    width: 100%;
+  }
+
+  .section2 {
+    height: 50vh;
+    width: 100%;
+  }
+
+  .section3 {
+
+    width: 100%;
+  }
+
+  .header {
+    overflow: hidden;
+    position: absolute;
+    width: 90%;
+    height: 100vh;
+  }
+
+  .text-box h1 {
+    font-size: 20px;
+
+  }
+
+  .nav-links ul li {
+    display: block;
+
+  }
+
+  .form.example input[type=text] {
+    padding: 0px;
+    font-size: 0 px;
+    border: 1px solid grey;
+    float: left;
+    width: 0 px;
+    background: #f1f1f100;
+  }
+
+  .nav-links {
+    position: absolute;
+    background: #242945;
+    height: 100vh;
+    width: 200px;
+    top: 0;
+    right: 0;
+    text-align: left;
+    z-index: 2;
+    transition: 1s;
+  }
+
+  nav .fa {
+
+    display: block;
+    color: rgb(0, 0, 0);
+    margin: 10px 0px 0px 18px;
+    font-size: 22px;
+    cursor: pointer;
+  }
+
+  .EX {
+    color: #ffffff !important;
+
+  }
+
+
+  .nav-links ul {
+    padding: 30px;
+
+  }
+
+}
+
+.head_write {
+  text-align: center;
+  color: #ebe7df;
+
+}
+
+
+body{
+  width: 90%;
+  height: 90vh;
+}
